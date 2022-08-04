@@ -1,6 +1,6 @@
 # KahootBot
 
-KahootBot is a Discord bot to spam Kahoot games between 200-400 bots.
+KahootBot is a Discord bot to spam Kahoot games between 100-1000 bots.
 
 ## Installation
 
