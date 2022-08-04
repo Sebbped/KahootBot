@@ -1,19 +1,22 @@
 {
-  "name": "KahootBot",
-  "version": "1.0.0",
-  "description": "",
+  "name": "kahootbot",
+  "version": "2.0.0",
+  "description": "Spam your kahoots with this Discord Bot",
   "main": "index.js",
   "dependencies": {
+    "@discordjs/rest": "^1.0.1",
+    "@venixthedev/kahootjs": "^2.4.0",
     "chance": "^1.1.7",
-    "dotenv": "^8.2.0",
-    "eris": "^0.14.0",
-    "kahoot.js-updated": "^2.4.0"
+    "discord.js": "^14.1.2",
+    "dotenv": "^16.0.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "deploy": "node deployCommands.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }
